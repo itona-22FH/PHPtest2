@@ -9,9 +9,11 @@
     <body>
         <h1>FizzBuzz問題</h1>
         <form method="post">
-            fizzNum:&nbsp;&nbsp;&nbsp;<input type="text" placeholder="整数値を入力してください" name="fizzNum">
+            fizzNum:&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="整数値を入力してください" name="fizzNum" size="25">
             <br>
-            buzzNum:&nbsp;<input type="text" placeholder="整数値を入力してください" name="buzzNum">
+            buzzNum:&nbsp;
+            <input type="text" placeholder="整数値を入力してください" name="buzzNum" size="25">
             <br>
             <input type="submit" value="実行" name="submit">
         </form>
